@@ -4,31 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- 1. Application title -->
     <title>SDASHBOARD</title>
     <meta name="apple-mobile-web-app-title" content="SDASHBOARD">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
 
-    <!-- 2. App Icons -->
     <link rel="icon" type="image/png" sizes="512x512" href="logo.png">
     <link rel="apple-touch-icon" href="logo.png">
-
-    <!-- Windows Tile Settings -->
     <meta name="msapplication-TileImage" content="logo.png">
     <meta name="msapplication-TileColor" content="#ffffff">
-
-    <!-- 3. Web Manifest Link -->
     <link rel="manifest" href="manifest.json">
 
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        html, body { width: 100%; height: 100%; overflow: hidden; background-color: #ffffff; }
-        iframe { width: 100%; height: 100%; border: none; }
-    </style>
+    <script>
+        // هدایت مستقیم کاربر به اپلیکیشن Cloud Run
+        window.location.replace("https://eataway-analytics-dashboard-sxkpa3rjva-ew.a.run.app");
+    </script>
 </head>
 <body>
-    <!-- 4. Streamlit app URL -->
-<iframe src="https://eataway-analytics-dashboard-sxkpa3rjva-ew.a.run.app"></iframe>
 </body>
 </html>
